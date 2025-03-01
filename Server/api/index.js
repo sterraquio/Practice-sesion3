@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
-const connectDB = require("../database/database");
+const connectDB = require("./database/database");
 const UserDAO = require("./dao/UserDAO");
 
 connectDB();
